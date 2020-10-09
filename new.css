@@ -17,8 +17,6 @@ body {
 
 .header h1 {
   font-size: 100px;
-  margin-left: 100px;
-  margin-right: 50px;
 }
 
 .topnav {
@@ -44,10 +42,9 @@ body {
 }
 
 .leftcolumn {
-  float: right;
-  width: 73%;
-  padding: 1px;
-  border-radius: 20px;
+  float: left;
+  width: 75%;
+  padding: 10px;
 }
 
 .rightcolumn {
@@ -69,57 +66,11 @@ body {
 }
 .card {
   background-color: white;
-  padding: 40px;
+  padding: 20px;
   margin-top: 20px;
   justify-content: center;
   border-radius: 20px;
-  width: 100%;
-  margin-left: -20px;
-}
-.img {
-  background-color: white;
-  padding: 40px;
-  margin-top: 20px;
-  justify-content: center;
-  border-radius: 20px;
-  width: 100%;
-  margin-left: -20px;
-}
-.tip {
-  background-color: white;
-  padding: 40px;
-  margin-top: 20px;
-  justify-content: center;
-  border-radius: 20px;
-  width: 100%;
-  margin-left: -20px;
-  text-align: center;
-}
-ul {
-  list-style: none;
-  text-align: center;
-  margin-left: -50px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-@media screen and (max-width: 700px) {
-  .leftcolumn,
-  .rightcolumn {
-    width: 100%;
-    padding: 10px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
+  justify-content: space-around;
 }
 footer {
   display: flex;

@@ -8,10 +8,11 @@ body {
 }
 
 .header {
-  padding: 30px;
+  padding: 33px;
   text-align: center;
   background: black;
   color: rgb(223, 8, 8);
+  border-radius: 20px;
 }
 
 .header h1 {
@@ -21,6 +22,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #333;
+  border-radius: 20px;
 }
 
 .topnav a {
@@ -28,26 +30,29 @@ body {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 15px 16px;
   text-decoration: none;
+  border-radius: 20px;
 }
 
 .topnav a:hover {
   background-color: white;
   color: black;
+  border-radius: 20px;
 }
 
 .leftcolumn {
   float: left;
   width: 75%;
+  padding: 10px;
 }
 
 .rightcolumn {
   float: left;
   width: 25%;
   background-color: darkgray;
-  padding-left: 30px;
-  border-radius: 10px;
+  padding-left: 40px;
+  border-radius: 20px;
 }
 .logo {
   display: flex;
@@ -55,28 +60,15 @@ body {
   background-color: white;
   padding: 20px;
   border-radius: 20px;
-  float: left;
+  float: right;
+  margin-left: 20px;
   width: 14%;
-}
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 5px;
-  justify-content: center;
-  border-radius: 10px;
-  height: 80%;
-  justify-content: space-around;
 }
 
 .row:after {
   content: "";
   display: table;
   clear: both;
-}
-
-footer {
-  text-align: center;
-  background: #ddd;
 }
 
 @media screen and (max-width: 800px) {
@@ -104,11 +96,18 @@ footer {
   flex-direction: column;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.1s;
-  width: 250px;
-  border-radius: 5px;
+  width: 35%;
+  border-radius: 4px;
   justify-content: center;
   align-content: center;
   padding: 50px;
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  justify-content: center;
+  border-radius: 60px;
+  justify-content: space-around;
+  text-align: center;
 }
 
 .card:hover {
@@ -137,8 +136,14 @@ li {
   justify-content: center;
 }
 footer {
-  padding: 20px;
+  display: flex;
+  align-items: flex-end;
+  background-color: gray;
+  justify-content: center;
+  justify-content: space-around;
   text-align: center;
-  background: #ddd;
+  font-family: sans-serif;
+  padding: 1%;
   margin-top: 20px;
+  border-radius: 4px;
 }
