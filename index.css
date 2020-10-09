@@ -3,8 +3,7 @@
 }
 
 body {
-  font-family: Arial;
-  padding: 10px;
+  font-family: sans-serif;
   background-color: darkgray;
 }
 
@@ -16,7 +15,7 @@ body {
 }
 
 .header h1 {
-  font-size: 50px;
+  font-size: 100px;
 }
 
 .topnav {
@@ -51,21 +50,25 @@ body {
   border-radius: 10px;
 }
 .logo {
+  display: flex;
+  align-items: center;
   background-color: white;
   padding: 20px;
-  margin-top: 20px;
-  justify-content: center;
-  border-radius: 40px;
-  width: auto;
-  height: auto;
+  border-radius: 20px;
+  float: left;
+  width: 14%;
 }
 .card {
   background-color: white;
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 5px;
   justify-content: center;
   border-radius: 10px;
   height: 80%;
+  justify-content: space-around;
+}
+li {
+  list-style: square;
 }
 
 .row:after {
@@ -82,9 +85,21 @@ body {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
   .topnav a {
     float: none;
     width: 100%;
   }
+}
+footer {
+  display: flex;
+  align-items: flex-end;
+  background-color: white;
+  justify-content: center;
+  justify-content: space-around;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 1%;
+  margin-top: 20px;
+  border-radius: 1px;
 }
