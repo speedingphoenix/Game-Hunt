@@ -33,7 +33,7 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: white;
   color: black;
 }
 
@@ -46,7 +46,7 @@ body {
   float: left;
   width: 25%;
   background-color: darkgray;
-  padding-left: 20px;
+  padding-left: 30px;
   border-radius: 10px;
 }
 .logo {
