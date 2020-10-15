@@ -17,6 +17,8 @@ body {
 
 .header h1 {
   font-size: 100px;
+  margin-left: 100px;
+  margin-right: 50px;
 }
 
 .topnav {
@@ -42,9 +44,10 @@ body {
 }
 
 .leftcolumn {
-  float: left;
-  width: 75%;
-  padding: 10px;
+  float: right;
+  width: 73%;
+  padding: 1px;
+  border-radius: 20px;
 }
 
 .rightcolumn {
@@ -63,14 +66,42 @@ body {
   float: right;
   margin-left: 20px;
   width: 14%;
+  margin-bottom: 10px;
+  margin-top: -270px;
+  margin-right: 50px;
 }
 .card {
   background-color: white;
-  padding: 20px;
+  padding: 40px;
   margin-top: 20px;
   justify-content: center;
   border-radius: 20px;
-  justify-content: space-around;
+  width: 100%;
+  margin-left: -20px;
+}
+.img {
+  background-color: white;
+  padding: 40px;
+  margin-top: 20px;
+  justify-content: center;
+  border-radius: 20px;
+  width: 80%;
+  margin-left: -20px;
+}
+.tip {
+  background-color: white;
+  padding: 40px;
+  margin-top: 20px;
+  justify-content: center;
+  border-radius: 20px;
+  width: 100%;
+  margin-left: -20px;
+  text-align: center;
+}
+ul {
+  list-style: solid circle;
+  text-align: left;
+  margin-left: -50px;
 }
 
 .row:after {
@@ -79,53 +110,19 @@ body {
   clear: both;
 }
 
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .leftcolumn,
   .rightcolumn {
     width: 100%;
-    padding: 0;
+    padding: 10px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
   .topnav a {
     float: none;
     width: 100%;
   }
-}
-#Contact {
-  display: flex;
-  flex-wrap: wrap;
-
-  justify-content: space-around;
-}
-
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-img {
-  border-radius: 5px 5px 0 0;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 2px 14px;
-  text-align: center;
-}
-ul {
-  list-style: none;
-  text-align: center;
-}
-li {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 footer {
   display: flex;
@@ -138,4 +135,24 @@ footer {
   padding: 10px;
   margin-top: 20px;
   border-radius: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  justify-content: space-between;
+  border-spacing: 0;
+  width: 100%;
+  margin-left: -1px;
+}
+th,
+td {
+  text-align: left;
+  padding: 16px;
+  width: 100%;
+  width: auto;
+}
+
+tr:nth-child() {
+  width: 100%;
+  width: auto;
 }
