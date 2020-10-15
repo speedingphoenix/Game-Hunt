@@ -152,7 +152,8 @@ td {
   width: auto;
 }
 
-tr:nth-child() {
+tr:nth-child(even) {
+  background-color: lightgray;
   width: 100%;
   width: auto;
 }
