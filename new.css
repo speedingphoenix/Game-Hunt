@@ -13,14 +13,14 @@ body {
   background: black;
   color: rgb(223, 8, 8);
   border-radius: 20px;
+  width: auto;
 }
 
 .header h1 {
   font-size: 100px;
-  margin-left: 100px;
-  margin-right: 50px;
+  width: auto;
+  font-family: Arial, Helvetica;
 }
-
 .topnav {
   overflow: hidden;
   background-color: #333;
