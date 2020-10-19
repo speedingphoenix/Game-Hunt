@@ -174,9 +174,12 @@ body::-webkit-scrollbar-track {
   background-color: black;
 }
 .next {
+  font-size: larger;
+  font-family: fantasy;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 0.5rem;
+  background-color: rgba(29, 27, 27, 0.295);
 }
