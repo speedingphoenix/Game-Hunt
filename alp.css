@@ -144,7 +144,7 @@ table {
   border-spacing: 0;
   width: 100%;
   margin-left: -1px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 th,
 td {
@@ -159,16 +159,24 @@ tr:nth-child(even) {
   width: 100%;
   width: auto;
 }
-h1, h5{
+h1,
+h5 {
   color: red;
 }
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
   width: 0.75rem;
 }
-body::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb {
   background-color: red;
   border-radius: 10px;
 }
-body::-webkit-scrollbar-track{
+body::-webkit-scrollbar-track {
   background-color: black;
+}
+.next {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
 }
