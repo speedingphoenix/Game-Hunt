@@ -180,6 +180,9 @@ body::-webkit-scrollbar-track {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 0.5rem;
-  background-color: rgba(29, 27, 27, 0.295);
+  margin-top: 0.9rem;
+  background-color: rgba(10, 10, 10, 0.534);
+  width: auto;
+  padding: 20px;
+  border-radius: 10px;
 }
