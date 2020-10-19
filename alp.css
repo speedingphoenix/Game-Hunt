@@ -155,10 +155,20 @@ td {
 }
 
 tr:nth-child(even) {
-  background-color: lightgray;
+  background-color: rgba(211, 211, 211, 0.267);
   width: 100%;
   width: auto;
 }
 h1, h5{
   color: red;
+}
+body::-webkit-scrollbar{
+  width: 0.75rem;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: red;
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-track{
+  background-color: black;
 }
