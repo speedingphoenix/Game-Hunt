@@ -1,7 +1,146 @@
 * {
   box-sizing: border-box;
 }
+body{
+  display: grid;
+  grid-template-rows: auto auto auto auto auto;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+header{
+display: grid;
+grid-column: 1/5;
+grid-row: 1/2;
+padding: 1%;
+background: black;
+color: rgb(223, 8, 8);
+border-radius: 20px;
+font-size: 80px;
+font-family: Arial, Helvetica;
+}
+nav{
+display: grid;
+grid-column: 1/5;
+grid-row: 3/3;
+overflow: hidden;
+background-color: #333;
+border-radius: 20px;
+}
+.topnav a {
+  display: grid;
+  grid-column: 1/5;
+  grid-row: 2/3;
+  float: left;
+  font-size: x-large;
+  display: block;
+  justify-content: space-between;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+h1{
+grid-column: 1/5;
+grid-row: 1/1;
+padding: 33px;
+display: flex;
+background: black;
+color: rgb(223, 8, 8);
+border-radius: 20px;
+font-size: 80px;
+justify-content: center;
+font-family: Arial, Helvetica;
+width: 100%;
+}
 
+.logo {
+display: grid;
+grid-column: 4/4;
+grid-row: 1/1;
+align-items: center;
+justify-content: center;
+background-color: white;
+padding: 5%;
+border-radius: 50px;
+margin-top: 5%;
+margin-bottom: 10%;
+margin-right: 5;
+margin-left: -10%;
+}
+
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+}
+
+.rightcolumn{
+  display: grid;
+  grid-column: 2/2;
+  grid-row: 3/3;
+  background-color: red;
+  padding: 40px;
+  border-radius: 20px;
+  margin-top: 10%;
+}
+.tip{
+  grid-column: 1/1;
+  grid-row: 3/3;
+  padding: 50px;
+  border-radius: 20px;
+  background-color: yellow;
+  margin-top: 10%;
+}
+
+.leftcolumn {
+  display: grid;
+  grid-column: 2/4;
+  grid-row: 2/2;
+  background-color: gray;
+  padding: 50px;
+  border-radius: 20px;
+  margin-top: 10%;
+}
+.laftcolumn{
+  padding: 50px;
+  border-radius: 20px;
+  background-color: green;
+  margin-top: 10%;
+}
+.card1{
+  padding: 50px;
+  border-radius: 20px;
+  background-color: hotpink;
+  margin-top: 10%;
+}
+
+footer {
+  grid-column: 1/5;
+  grid-row: 5/5;
+  display: flex;
+  justify-content: space-around;
+  background-color: chartreuse;
+  align-items: flex-end;
+  justify-content: center;
+  justify-content: space-around;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+body::-webkit-scrollbar{
+  width: 0.75rem;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: red;
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-track{
+  background-color: black;
+}
+/*
 body {
   font-family: sans-serif;
   background-color: darkgray;
