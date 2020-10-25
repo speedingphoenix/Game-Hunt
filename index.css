@@ -95,20 +95,26 @@ margin-left: -10%;
 
 .leftcolumn {
   display: grid;
-  grid-column: 2/4;
-  grid-row: 2/2;
+  grid-column: 3/5;
+  grid-row: 3/3;
   background-color: gray;
   padding: 50px;
   border-radius: 20px;
   margin-top: 10%;
 }
 .laftcolumn{
+  display: grid;
+  grid-column: 3/5;
+  grid-row: 4/4;
   padding: 50px;
   border-radius: 20px;
   background-color: green;
   margin-top: 10%;
 }
 .card1{
+  display: grid;
+  grid-column: 3/5;
+  grid-row: 4/4;
   padding: 50px;
   border-radius: 20px;
   background-color: hotpink;
@@ -140,104 +146,22 @@ body::-webkit-scrollbar-thumb{
 body::-webkit-scrollbar-track{
   background-color: black;
 }
-/*
-body {
-  font-family: sans-serif;
-  background-color: darkgray;
+
+@media screen and (max-width: 400px) {
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 10px;
+  }
 }
 
-.header {
-  padding: 33px;
-  text-align: center;
-  background: black;
-  color: rgb(223, 8, 8);
-  border-radius: 20px;
-  width: auto;
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
 }
 
-.header h1 {
-  font-size: 100px;
-  width: auto;
-  font-family: Arial, Helvetica;
-}
-
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-  border-radius: 20px;
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 15px 16px;
-  text-decoration: none;
-  border-radius: 20px;
-}
-
-.topnav a:hover {
-  background-color: white;
-  color: black;
-  border-radius: 20px;
-}
-
-.leftcolumn {
-  float: right;
-  width: 73%;
-  padding: 1px;
-  border-radius: 20px;
-}
-
-.rightcolumn {
-  float: left;
-  width: 25%;
-  background-color: darkgray;
-  padding-left: 40px;
-  border-radius: 20px;
-}
-.logo {
-  display: flex;
-  align-items: center;
-  background-color: white;
-  padding: 20px;
-  border-radius: 20px;
-  float: right;
-  margin-left: 20px;
-  width: 14%;
-  margin-bottom: 10px;
-  margin-top: -270px;
-  margin-right: 50px;
-}
-.card {
-  background-color: white;
-  padding: 40px;
-  margin-top: 20px;
-  justify-content: center;
-  border-radius: 20px;
-  width: 100%;
-  margin-left: -20px;
-}
-.img {
-  background-color: white;
-  padding: 40px;
-  margin-top: 20px;
-  justify-content: center;
-  border-radius: 20px;
-  width: 80%;
-  margin-left: -20px;
-}
-.tip {
-  background-color: white;
-  padding: 40px;
-  margin-top: 20px;
-  justify-content: center;
-  border-radius: 20px;
-  width: 100%;
-  margin-left: -20px;
-  text-align: center;
-}
 ul {
   list-style: none;
   text-align: center;
@@ -250,32 +174,6 @@ ul {
   clear: both;
 }
 
-@media screen and (max-width: 700px) {
-  .leftcolumn,
-  .rightcolumn {
-    width: 100%;
-    padding: 10px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
-}
-footer {
-  display: flex;
-  align-items: flex-end;
-  background-color: white;
-  justify-content: center;
-  justify-content: space-around;
-  text-align: center;
-  font-family: sans-serif;
-  padding: 10px;
-  margin-top: 20px;
-  border-radius: 20px;
-}
 h4 {
   display: block;
   margin-block-start: 1.33em;
@@ -283,14 +181,4 @@ h4 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
-}
-body::-webkit-scrollbar{
-  width: 0.75rem;
-}
-body::-webkit-scrollbar-thumb{
-  background-color: red;
-  border-radius: 10px;
-}
-body::-webkit-scrollbar-track{
-  background-color: black;
 }
