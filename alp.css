@@ -47,13 +47,13 @@ h1 {
   grid-row: 1/1;
   padding: 33px;
   display: flex;
-  background: black;
   color: rgb(223, 8, 8);
   border-radius: 20px;
   font-size: 80px;
   justify-content: center;
   font-family: Arial, Helvetica;
   width: 100%;
+  margin-left: 50%;
 }
 
 .topnav a:hover {
@@ -131,14 +131,6 @@ body::-webkit-scrollbar-track {
   background-color: black;
 }
 
-.tip {
-  grid-column: 1/1;
-  grid-row: 3/3;
-  padding: 50px;
-  border-radius: 20px;
-  background-color: yellow;
-  margin-top: 10%;
-}
 ul {
   list-style: solid circle;
   text-align: left;
