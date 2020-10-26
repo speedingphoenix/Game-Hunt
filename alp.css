@@ -18,6 +18,7 @@ header {
   border-radius: 20px;
   font-size: 80px;
   font-family: Arial, Helvetica;
+  width: auto;
 }
 
 nav {
@@ -27,6 +28,7 @@ nav {
   overflow: hidden;
   background-color: #333;
   border-radius: 20px;
+  width: auto;
 }
 .topnav a {
   display: grid;
@@ -41,6 +43,7 @@ nav {
   padding: 15px 16px;
   text-decoration: none;
   border-radius: 20px;
+  width: auto;
 }
 h1 {
   grid-column: 1/5;
@@ -75,6 +78,7 @@ h1 {
   margin-bottom: 10%;
   margin-right: 5;
   margin-left: -10%;
+  width: auto;
 }
 .rightcolumn {
   display: grid;
@@ -86,6 +90,7 @@ h1 {
   margin-top: 8%;
   margin-right: 5%;
   height: 40%;
+  width: auto;
 }
 .leftcolumn {
   display: grid;
@@ -95,15 +100,18 @@ h1 {
   border-radius: 20px;
   background-color: white;
   margin-top: 2.51%;
+  width: auto;
 }
 h2 {
   font-size: 50px;
   color: red;
+  width: auto;
 }
 h3 {
   display: flex;
   font-size: 30px;
   justify-content: center;
+  width: auto;
 }
 footer {
   grid-column: 1/5;
@@ -119,6 +127,7 @@ footer {
   padding: 10px;
   margin-top: 20px;
   border-radius: 20px;
+  width: auto;
 }
 body::-webkit-scrollbar {
   width: 0.75rem;
