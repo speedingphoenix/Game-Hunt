@@ -89,7 +89,7 @@ h1 {
   background-color: white;
   margin-top: 8%;
   margin-right: 5%;
-  height: 40%;
+  height: 33%;
   width: auto;
 }
 .leftcolumn {
@@ -128,6 +128,7 @@ footer {
   margin-top: 20px;
   border-radius: 20px;
   width: auto;
+  font-size: medium;
 }
 body::-webkit-scrollbar {
   width: 0.75rem;
