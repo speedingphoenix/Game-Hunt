@@ -85,8 +85,9 @@ h1 {
   background-color: white;
   margin-top: 8%;
   margin-right: 5%;
-  height: 60%;
+  height: 15%;
 }
+
 .leftcolumn {
   display: grid;
   grid-column: 2/5;
@@ -189,7 +190,7 @@ h1 {
 }
 h2 {
   font-size: 50px;
-  color: red;
+  color: black;
 }
 h3 {
   display: flex;
