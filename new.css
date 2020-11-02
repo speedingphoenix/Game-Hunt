@@ -5,7 +5,7 @@ body {
   display: grid;
   grid-template-rows: auto auto auto auto auto auto auto auto auto;
   grid-template-columns: 25% 25% 25% 25%;
-  background-color: gray;
+  background-color: black;
 }
 header {
   display: grid;
@@ -82,7 +82,7 @@ h1 {
   background-color: whitesmoke;
   padding: 50px;
   border-radius: 20px;
-  margin-top: 10%;
+  margin-top: 2%;
 }
 .leftcolumn2 {
   display: grid;
@@ -91,7 +91,7 @@ h1 {
   background-color: whitesmoke;
   padding: 50px;
   border-radius: 20px;
-  margin-top: 10%;
+  margin-top: 2%;
 }
 .leftcolumn3 {
   display: grid;
@@ -100,7 +100,7 @@ h1 {
   background-color: whitesmoke;
   padding: 50px;
   border-radius: 20px;
-  margin-top: 10%;
+  margin-top: 2%;
 }
 .leftcolumn4 {
   display: grid;
@@ -109,7 +109,7 @@ h1 {
   background-color: whitesmoke;
   padding: 50px;
   border-radius: 20px;
-  margin-top: 10%;
+  margin-top: 2%;
 }
 .leftcolumn5 {
   display: grid;
@@ -118,7 +118,7 @@ h1 {
   background-color: whitesmoke;
   padding: 50px;
   border-radius: 20px;
-  margin-top: 10%;
+  margin-top: 2%;
 }
 .card1 {
   display: grid;
@@ -127,7 +127,7 @@ h1 {
   padding: 50px;
   border-radius: 20px;
   background-color: white;
-  margin-top: 3.3%;
+  margin-top: 2%;
 }
 
 footer {

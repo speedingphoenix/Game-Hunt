@@ -6,7 +6,7 @@ body {
   display: grid;
   grid-template-rows: auto auto auto auto auto auto auto auto;
   grid-template-columns: 25% 25% 25% 25%;
-  background-color: darkgray;
+  background-color: black;
 }
 header {
   display: grid;
