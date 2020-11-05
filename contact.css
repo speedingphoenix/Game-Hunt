@@ -23,10 +23,11 @@ header {
 }
 
 h1 {
-  grid-column: 1/5;
+  grid-column: 1 / auto;
   grid-row: 1/1;
   padding: 33px;
   display: flex;
+  background: black;
   color: rgb(223, 8, 8);
   border-radius: 20px;
   font-size: 80px;
@@ -97,16 +98,32 @@ nav {
   clear: both;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
   .leftcolumn,
   .rightcolumn {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .topnav a,
+  nav {
     width: 100%;
   }
 }
 
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
+@media screen and (max-width: 800px) {
+  .logo {
+    grid-column: 1 / auto;
+    grid-row: 2/2;
+    width: 100%;
+    margin-left: 1%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .h1 {
+    grid-column: 1 / auto;
     width: 100%;
   }
 }
@@ -119,19 +136,18 @@ nav {
   flex-direction: column;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.1s;
-  width: 100%;
-  border-radius: 4px;
+  width: 130%;
   justify-content: center;
   align-content: center;
-  padding: 50px;
+  padding: 10%;
   background-color: white;
-  padding: 20px;
+  padding: 10%;
   justify-content: center;
-  border-radius: 60px;
+  border-radius: 20px;
   justify-content: space-around;
   text-align: center;
   margin-top: 20%;
-  margin-left: 30%;
+  margin-left: 10%;
 }
 
 .card2 {
@@ -142,18 +158,17 @@ nav {
   flex-direction: column;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.1s;
-  width: 100%;
-  border-radius: 4px;
+  width: 130%;
   justify-content: center;
   align-content: center;
-  padding: 50px;
+  padding: 10%;
   background-color: white;
-  padding: 20px;
+  padding: 10%;
   justify-content: center;
-  border-radius: 60px;
+  border-radius: 20px;
   justify-content: space-around;
   text-align: center;
-  margin-left: 50%;
+  margin-left: 40%;
 }
 
 .card3 {
@@ -164,15 +179,14 @@ nav {
   flex-direction: column;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.1s;
-  width: 100%;
-  border-radius: 4px;
+  width: 130%;
   justify-content: center;
   align-content: center;
-  padding: 50px;
+  padding: 10%;
   background-color: white;
-  padding: 20px;
+  padding: 10%;
   justify-content: center;
-  border-radius: 60px;
+  border-radius: 20px;
   justify-content: space-around;
   text-align: center;
   margin-top: 20%;

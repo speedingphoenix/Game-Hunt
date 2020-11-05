@@ -1,30 +1,30 @@
 * {
   box-sizing: border-box;
 }
-body{
+body {
   display: grid;
   grid-template-rows: auto auto auto auto auto;
   grid-template-columns: 25% 25% 25% 25%;
   background-color: black;
 }
-header{
-display: grid;
-grid-column: 1/5;
-grid-row: 1/2;
-padding: 1%;
-background: black;
-color: rgb(223, 8, 8);
-border-radius: 20px;
-font-size: 80px;
-font-family: Arial, Helvetica;
+header {
+  display: grid;
+  grid-column: 1/5;
+  grid-row: 1/2;
+  padding: 1%;
+  background: black;
+  color: rgb(223, 8, 8);
+  border-radius: 20px;
+  font-size: 80px;
+  font-family: Arial, Helvetica;
 }
-nav{
-display: grid;
-grid-column: 1/5;
-grid-row: 3/3;
-overflow: hidden;
-background-color: #333;
-border-radius: 20px;
+nav {
+  display: grid;
+  grid-column: 1/5;
+  grid-row: 3/3;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 20px;
 }
 .topnav a {
   display: grid;
@@ -40,35 +40,34 @@ border-radius: 20px;
   text-decoration: none;
   border-radius: 20px;
 }
-h1{
-grid-column: 1/5;
-grid-row: 1/1;
-padding: 33px;
-display: flex;
-background: black;
-color: rgb(223, 8, 8);
-border-radius: 20px;
-font-size: 80px;
-justify-content: center;
-font-family: Arial, Helvetica;
-width: 100%;
+h1 {
+  grid-column: 1 / auto;
+  grid-row: 1/1;
+  padding: 33px;
+  display: flex;
+  background: black;
+  color: rgb(223, 8, 8);
+  border-radius: 20px;
+  font-size: 80px;
+  justify-content: center;
+  font-family: Arial, Helvetica;
+  width: 100%;
 }
 
 .logo {
-display: grid;
-grid-column: 4/4;
-grid-row: 1/1;
-align-items: center;
-justify-content: center;
-background-color: white;
-padding: 5%;
-border-radius: 50px;
-margin-top: 5%;
-margin-bottom: 10%;
-margin-right: 5;
-margin-left: -10%;
+  display: grid;
+  grid-column: 4 / 5;
+  grid-row: 1/1;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 5%;
+  border-radius: 50px;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-right: 5;
+  margin-left: -10%;
 }
-
 
 .topnav a:hover {
   background-color: white;
@@ -76,7 +75,7 @@ margin-left: -10%;
   border-radius: 20px;
 }
 
-.rightcolumn{
+.rightcolumn {
   display: grid;
   grid-column: 1/1;
   grid-row: 2.5/2.5;
@@ -85,7 +84,7 @@ margin-left: -10%;
   border-radius: 20px;
   margin-top: 10%;
 }
-.tip{
+.tip {
   grid-column: 1/1;
   grid-row: 3/3;
   padding: 50px;
@@ -104,17 +103,19 @@ margin-left: -10%;
   margin-top: 3.3%;
   margin-left: 1%;
 }
-.laftcolumn{
+.laftcolumn {
   display: grid;
   grid-column: 2/5;
   grid-row: 3/3;
+  display: flex;
+  justify-content: center;
   padding: 50px;
   border-radius: 20px;
   background-color: white;
   margin-top: 3.3%;
   margin-left: 1%;
 }
-.card1{
+.card1 {
   display: grid;
   grid-column: 2/5;
   grid-row: 4/4;
@@ -139,18 +140,18 @@ footer {
   margin-top: 20px;
   border-radius: 20px;
 }
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
   width: 0.75rem;
 }
-body::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb {
   background-color: red;
   border-radius: 10px;
 }
-body::-webkit-scrollbar-track{
+body::-webkit-scrollbar-track {
   background-color: black;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
   .leftcolumn,
   .rightcolumn {
     width: 100%;
@@ -158,13 +159,32 @@ body::-webkit-scrollbar-track{
   }
 }
 
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
+@media screen and (max-width: 800px) {
+  .topnav a,
+  nav {
     width: 100%;
   }
 }
 
+@media screen and (max-width: 800px) {
+  .logo {
+    grid-column: 1 / auto;
+    grid-row: 2/2;
+    width: 100%;
+    margin-left: 1%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .h1 {
+    grid-column: 1 / auto;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .card{
+    height: 40%;
+  }
+}
 ul {
   list-style: none;
   text-align: center;
@@ -186,8 +206,11 @@ h4 {
   font-weight: bold;
 }
 h3 {
+  display: grid;
+  grid-row: 5/5;
+  grid-column: 1/5;
   display: flex;
-  font-size: 25px;
+  font-size: 15px;
   justify-content: center;
   width: auto;
 }

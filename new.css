@@ -41,7 +41,7 @@ nav {
   border-radius: 20px;
 }
 h1 {
-  grid-column: 1/5;
+  grid-column: 1 / auto;
   grid-row: 1/1;
   padding: 33px;
   display: flex;
@@ -56,7 +56,7 @@ h1 {
 
 .logo {
   display: grid;
-  grid-column: 4/4;
+  grid-column: 4 / 5;
   grid-row: 1/1;
   align-items: center;
   justify-content: center;
@@ -164,10 +164,19 @@ body::-webkit-scrollbar-track {
   }
 }
 
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
+@media screen and (max-width: 800px) {
+  .topnav a,
+  nav {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .logo {
+    grid-column: 1 / auto;
+    grid-row: 2/2;
+    width: 100%;
+    margin-left: 1%;
   }
 }
 
@@ -181,4 +190,13 @@ ul {
   content: "";
   display: table;
   clear: both;
+}
+h3 {
+  display: grid;
+  grid-row: 5/5;
+  grid-column: 1/5;
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+  width: auto;
 }

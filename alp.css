@@ -46,17 +46,17 @@ nav {
   width: auto;
 }
 h1 {
-  grid-column: 1/5;
+  grid-column: 1 / auto;
   grid-row: 1/1;
   padding: 33px;
   display: flex;
+  background: black;
   color: rgb(223, 8, 8);
   border-radius: 20px;
   font-size: 80px;
   justify-content: center;
   font-family: Arial, Helvetica;
   width: 100%;
-  margin-left: 50%;
 }
 
 .topnav a:hover {
@@ -89,7 +89,7 @@ h1 {
   background-color: white;
   margin-top: 8%;
   margin-right: 5%;
-  height: 33%;
+  height: 43%;
   width: auto;
 }
 .leftcolumn {
@@ -103,15 +103,26 @@ h1 {
   width: auto;
 }
 h2 {
-  font-size: 50px;
+  display: grid;
+  grid-column: 3/4;
+  font-size: 45px;
   color: red;
-  width: auto;
+  margin-right: 10%;
 }
 h3 {
+  display: grid;
+  grid-row: 5/5;
+  grid-column: 1/5;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+}
+h4 {
+  display: grid;
+  grid-row: 5/5;
+  grid-column: 1/5;
   display: flex;
   font-size: 30px;
-  justify-content: center;
-  width: auto;
 }
 footer {
   grid-column: 1/5;
@@ -153,35 +164,56 @@ ul {
   clear: both;
 }
 
-@media screen and (max-width: 400px) {
-  .leftcolumn,
-  .rightcolumn {
+@media screen and (max-width: 800px) {
+  .topnav a,
+  nav {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .logo {
+    grid-column: auto / auto;
+    grid-row: 2/2;
+    width: 100%;
+    margin-left: 1%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .h1 {
+    grid-column: auto / auto;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn {
     width: 100%;
     padding: 10px;
   }
 }
-
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
-    width: 100%;
+@media screen and (max-width: 800px) {
+  .next {
+    margin-right: 25%;
   }
 }
 
+@media screen and (max-width: 800px) {
+  table {
+    margin-right: 25%;
+  }
+}
 table {
-  border-collapse: collapse;
   justify-content: space-between;
   border-spacing: 0;
   width: 100%;
-  font-family: "Times New Roman", Times, serif;
   background-color: white;
+
 }
 th,
 td {
   text-align: left;
-  padding: 16px;
-  width: 100%;
   width: auto;
+  padding: 1%;
 }
 
 tr:nth-child(even) {
@@ -212,7 +244,7 @@ body::-webkit-scrollbar-track {
   flex-wrap: wrap;
   margin-top: 0.9rem;
   background-color: rgba(10, 10, 10, 0.534);
-  width: auto;
+  width: 100%;
   padding: 20px;
   border-radius: 10px;
 }

@@ -43,19 +43,18 @@ nav {
   border-radius: 20px;
 }
 h1 {
-  grid-column: 1/5;
+  grid-column: 1 / auto;
   grid-row: 1/1;
   padding: 33px;
   display: flex;
+  background: black;
   color: rgb(223, 8, 8);
   border-radius: 20px;
   font-size: 80px;
   justify-content: center;
   font-family: Arial, Helvetica;
   width: 100%;
-  margin-left: 50%;
 }
-
 .topnav a:hover {
   background-color: white;
   color: black;
@@ -102,45 +101,55 @@ h1 {
   grid-column: 1/5;
   grid-row: 3/3;
   background-color: gold;
-  padding: 50px;
   border-radius: 20px;
   margin-top: 10%;
+  margin-right: 30%;
+  padding: 1%;
+  width: 100%;
 }
 .leftcolumn2 {
   display: grid;
   grid-column: 1/5;
   grid-row: 4/4;
   background-color: silver;
-  padding: 50px;
   border-radius: 20px;
   margin-top: 10%;
+  margin-right: 30%;
+  padding: 1%;
+  width: 100%;
 }
 .leftcolumn3 {
   display: grid;
   grid-column: 1/5;
   grid-row: 5/5;
   background-color: rgb(180, 132, 78);
-  padding: 50px;
   border-radius: 20px;
   margin-top: 10%;
+  margin-right: 30%;
+  padding: 1%;
+  width: 100%;
 }
 .leftcolumn4 {
   display: grid;
   grid-column: 1/5;
   grid-row: 6/6;
   background-color: lightyellow;
-  padding: 50px;
   border-radius: 20px;
   margin-top: 10%;
+  margin-right: 30%;
+  padding: 1%;
+  width: 100%;
 }
 .leftcolumn5 {
   display: grid;
   grid-column: 1/5;
   grid-row: 7/7;
   background-color: lightgray;
-  padding: 50px;
   border-radius: 20px;
   margin-top: 10%;
+  margin-right: 30%;
+  padding: 1%;
+  width: 100%;
 }
 
 .leftcolumn6 {
@@ -148,54 +157,68 @@ h1 {
   grid-column: 1/5;
   grid-row: 3/3;
   background-color: grey;
-  padding: 50px;
   border-radius: 20px;
   margin-top: 10%;
+  margin-right: 30%;
+  padding: 2%;
+  width: 100%;
 }
 .leftcolumn7 {
   display: grid;
   grid-column: 1/5;
   grid-row: 4/4;
   background-color: grey;
-  padding: 50px;
   border-radius: 20px;
   margin-top: 10%;
+  margin-right: 30%;
+  padding: 2%;
+  width: 100%;
 }
 .leftcolumn8 {
   display: grid;
   grid-column: 1/5;
   grid-row: 5/5;
   background-color: grey;
-  padding: 50px;
   border-radius: 20px;
   margin-top: 10%;
+  margin-right: 30%;
+  padding: 2%;
+  width: 100%;
 }
 .leftcolumn9 {
   display: grid;
   grid-column: 1/5;
   grid-row: 6/6;
   background-color: grey;
-  padding: 50px;
   border-radius: 20px;
   margin-top: 10%;
+  margin-right: 30%;
+  padding: 2%;
+  width: 100%;
 }
 .leftcolumn10 {
   display: grid;
   grid-column: 1/5;
   grid-row: 7/7;
   background-color: grey;
-  padding: 50px;
   border-radius: 20px;
   margin-top: 10%;
+  margin-right: 30%;
+  padding: 2%;
+  width: 100%;
 }
 h2 {
   font-size: 50px;
   color: black;
 }
 h3 {
+  display: grid;
+  grid-row: 5/5;
+  grid-column: 1/5;
   display: flex;
-  font-size: 30px;
+  font-size: 15px;
   justify-content: center;
+  width: auto;
 }
 footer {
   grid-column: 1/5;
@@ -235,17 +258,24 @@ ul {
   clear: both;
 }
 
-@media screen and (max-width: 400px) {
-  .leftcolumn,
-  .rightcolumn {
+@media screen and (max-width: 800px) {
+  .topnav a,
+  nav {
     width: 100%;
-    padding: 10px;
   }
 }
 
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
+@media screen and (max-width: 800px) {
+  .logo {
+    grid-column: 1 / auto;
+    grid-row: 2/2;
+    width: 100%;
+    margin-left: 1%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .h1 {
+    grid-column: 1 / auto;
     width: 100%;
   }
 }
