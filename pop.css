@@ -84,7 +84,7 @@ h1 {
   background-color: white;
   margin-top: 8%;
   margin-right: 5%;
-  height: 35%;
+  height: 10%;
 }
 
 .leftcolumn {
@@ -216,7 +216,7 @@ h3 {
   grid-row: 5/5;
   grid-column: 1/5;
   display: flex;
-  font-size: 200%;
+  font-size: 100%;
   justify-content: center;
   width: auto;
 }
@@ -249,7 +249,6 @@ body::-webkit-scrollbar-track {
 ul {
   list-style: solid circle;
   text-align: left;
-  margin-left: -50px;
 }
 
 .row:after {

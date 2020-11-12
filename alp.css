@@ -16,7 +16,7 @@ header {
   background: black;
   color: rgb(223, 8, 8);
   border-radius: 20px;
-  font-size: 20%;
+  font-size: x-large;
   font-family: Arial, Helvetica;
 }
 
@@ -25,6 +25,7 @@ nav {
   grid-column: 1/5;
   grid-row: 3/3;
   overflow: hidden;
+  font-size: x-large;
   background-color: #333;
   border-radius: 20px;
   width: auto;
@@ -46,7 +47,6 @@ nav {
 h1 {
   grid-column: 1 / auto;
   grid-row: 1/1;
-  padding: 3%;
   display: flex;
   background: black;
   color: rgb(223, 8, 8);
@@ -101,7 +101,7 @@ h1 {
 h2 {
   display: grid;
   grid-column: 3/4;
-  font-size: 380%;
+  font-size: 100%;
   color: red;
   margin-right: 10%;
 }
@@ -110,7 +110,7 @@ h3 {
   grid-row: 5/5;
   grid-column: 1/5;
   display: flex;
-  font-size: 150%;
+  font-size: 100%;
   justify-content: center;
 }
 h4 {
@@ -118,7 +118,7 @@ h4 {
   grid-row: 5/5;
   grid-column: 1/5;
   display: flex;
-  font-size: 200%;
+  font-size: 100%;
 }
 footer {
   grid-column: 1/5;
@@ -157,39 +157,45 @@ ul {
   clear: both;
 }
 
-@media screen and (max-width: 500px) {
+
+@media screen and (max-width:800px) {
+  table {
+    margin-right: 85%;
+  }
+}
+@media screen and (max-width: 800px) {
   .topnav a,
   nav {
     grid-column: 1/3;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   .logo {
     grid-column: auto / auto;
     grid-row: 2/2;
     margin-left: 1%;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   .h1 {
     grid-column: auto / auto;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   .leftcolumn {
     grid-column: 2/5;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
   .next {
     margin-right: 25%;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   table {
-    margin-right: 25%;
+    margin-right: 15%;
   }
 }
 table {
@@ -226,7 +232,7 @@ body::-webkit-scrollbar-track {
   background-color: black;
 }
 .next {
-  font-size: larger;
+  font-size: medium;
   font-family: fantasy;
   display: flex;
   align-items: center;
