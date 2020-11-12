@@ -18,14 +18,14 @@ header {
   background: black;
   color: rgb(223, 8, 8);
   border-radius: 20px;
-  font-size: 80px;
+  font-size: 20%;
   font-family: Arial, Helvetica;
 }
 
 h1 {
   grid-column: 1 / auto;
   grid-row: 1/1;
-  padding: 33px;
+  padding: 3%;
   display: flex;
   background: black;
   color: rgb(223, 8, 8);
@@ -54,7 +54,7 @@ nav {
   justify-content: space-between;
   color: #f2f2f2;
   text-align: center;
-  padding: 15px 16px;
+  padding: 1% 1%;
   text-decoration: none;
   border-radius: 20px;
 }
@@ -75,17 +75,17 @@ nav {
   width: 25%;
   background-color: darkgray;
   padding-left: 40px;
-  border-radius: 20px;
+  border-radius: 5%;
 }
 .logo {
   display: grid;
-  grid-column: 4/4;
+  grid-column: 4 / 5;
   grid-row: 1/1;
   align-items: center;
   justify-content: center;
   background-color: white;
   padding: 5%;
-  border-radius: 50px;
+  border-radius: 20px;
   margin-top: 5%;
   margin-bottom: 10%;
   margin-right: 5;
@@ -102,7 +102,7 @@ nav {
   .leftcolumn,
   .rightcolumn {
     width: 100%;
-    padding: 10px;
+    padding: 20%;
   }
 }
 
@@ -209,14 +209,14 @@ footer {
   grid-row: 5/5;
   display: flex;
   justify-content: space-around;
-  background-color: white;
+  background-color: transparent;
   align-items: flex-end;
   justify-content: center;
   justify-content: space-around;
   text-align: center;
   font-family: sans-serif;
-  padding: 10px;
-  margin-top: 20px;
+  padding: 2%;
+  margin-top: 2%;
   border-radius: 20px;
 }
 body::-webkit-scrollbar {
@@ -224,7 +224,7 @@ body::-webkit-scrollbar {
 }
 body::-webkit-scrollbar-thumb {
   background-color: red;
-  border-radius: 10px;
+  border-radius: 1%;
 }
 body::-webkit-scrollbar-track {
   background-color: black;

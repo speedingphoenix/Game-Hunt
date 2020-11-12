@@ -15,7 +15,7 @@ header {
   background: black;
   color: rgb(223, 8, 8);
   border-radius: 20px;
-  font-size: 80px;
+  font-size: 20%;
   font-family: Arial, Helvetica;
 }
 nav {
@@ -36,14 +36,14 @@ nav {
   justify-content: space-between;
   color: #f2f2f2;
   text-align: center;
-  padding: 15px 16px;
+  padding: 1% 1%;
   text-decoration: none;
   border-radius: 20px;
 }
 h1 {
   grid-column: 1 / auto;
   grid-row: 1/1;
-  padding: 33px;
+  padding: 3%;
   display: flex;
   background: black;
   color: rgb(223, 8, 8);
@@ -62,7 +62,7 @@ h1 {
   justify-content: center;
   background-color: white;
   padding: 5%;
-  border-radius: 50px;
+  border-radius: 20px;
   margin-top: 5%;
   margin-bottom: 10%;
   margin-right: 5;
@@ -80,7 +80,7 @@ h1 {
   grid-column: 1/5;
   grid-row: 3/3;
   background-color: whitesmoke;
-  padding: 50px;
+  padding: 5%;
   border-radius: 20px;
   margin-top: 2%;
 }
@@ -89,7 +89,7 @@ h1 {
   grid-column: 1/5;
   grid-row: 4/4;
   background-color: whitesmoke;
-  padding: 50px;
+  padding: 5%;
   border-radius: 20px;
   margin-top: 2%;
 }
@@ -98,7 +98,7 @@ h1 {
   grid-column: 1/5;
   grid-row: 5/5;
   background-color: whitesmoke;
-  padding: 50px;
+  padding: 5%;
   border-radius: 20px;
   margin-top: 2%;
 }
@@ -107,7 +107,7 @@ h1 {
   grid-column: 1/5;
   grid-row: 6/6;
   background-color: whitesmoke;
-  padding: 50px;
+  padding: 5%;
   border-radius: 20px;
   margin-top: 2%;
 }
@@ -116,7 +116,7 @@ h1 {
   grid-column: 1/5;
   grid-row: 7/7;
   background-color: whitesmoke;
-  padding: 50px;
+  padding: 5%;
   border-radius: 20px;
   margin-top: 2%;
 }
@@ -124,7 +124,7 @@ h1 {
   display: grid;
   grid-column: 2/5;
   grid-row: 8/8;
-  padding: 50px;
+  padding: 5%;
   border-radius: 20px;
   background-color: white;
   margin-top: 2%;
@@ -141,8 +141,8 @@ footer {
   justify-content: space-around;
   text-align: center;
   font-family: sans-serif;
-  padding: 10px;
-  margin-top: 20px;
+  padding: 2%;
+  margin-top: 2%;
   border-radius: 20px;
 }
 body::-webkit-scrollbar {

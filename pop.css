@@ -16,7 +16,7 @@ header {
   background: black;
   color: rgb(223, 8, 8);
   border-radius: 20px;
-  font-size: 80px;
+  font-size: 20%;
   font-family: Arial, Helvetica;
 }
 
@@ -38,14 +38,14 @@ nav {
   justify-content: space-between;
   color: #f2f2f2;
   text-align: center;
-  padding: 15px 16px;
+  padding: 1% 1%;
   text-decoration: none;
   border-radius: 20px;
 }
 h1 {
   grid-column: 1 / auto;
   grid-row: 1/1;
-  padding: 33px;
+  padding: 3%;
   display: flex;
   background: black;
   color: rgb(223, 8, 8);
@@ -63,13 +63,13 @@ h1 {
 
 .logo {
   display: grid;
-  grid-column: 4/4;
+  grid-column: 4 / 5;
   grid-row: 1/1;
   align-items: center;
   justify-content: center;
   background-color: white;
   padding: 5%;
-  border-radius: 50px;
+  border-radius: 20px;
   margin-top: 5%;
   margin-bottom: 10%;
   margin-right: 5;
@@ -79,12 +79,12 @@ h1 {
   display: grid;
   grid-column: 1/1;
   grid-row: 2/2;
-  padding: 40px;
+  padding: 0.6%;
   border-radius: 20px;
   background-color: white;
   margin-top: 8%;
   margin-right: 5%;
-  height: 15%;
+  height: 35%;
 }
 
 .leftcolumn {
@@ -92,7 +92,7 @@ h1 {
   grid-column: 2/5;
   grid-row: 2/2;
   background-color: white;
-  padding: 50px;
+  padding: 5%;
   border-radius: 20px;
   margin-top: 3%;
 }
@@ -208,7 +208,7 @@ h1 {
   width: 100%;
 }
 h2 {
-  font-size: 50px;
+  font-size: 300%;
   color: black;
 }
 h3 {
@@ -216,7 +216,7 @@ h3 {
   grid-row: 5/5;
   grid-column: 1/5;
   display: flex;
-  font-size: 15px;
+  font-size: 200%;
   justify-content: center;
   width: auto;
 }

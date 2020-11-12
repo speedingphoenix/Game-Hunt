@@ -16,9 +16,8 @@ header {
   background: black;
   color: rgb(223, 8, 8);
   border-radius: 20px;
-  font-size: 80px;
+  font-size: 20%;
   font-family: Arial, Helvetica;
-  width: auto;
 }
 
 nav {
@@ -40,15 +39,14 @@ nav {
   justify-content: space-between;
   color: #f2f2f2;
   text-align: center;
-  padding: 15px 16px;
+  padding: 1% 1%;
   text-decoration: none;
   border-radius: 20px;
-  width: auto;
 }
 h1 {
   grid-column: 1 / auto;
   grid-row: 1/1;
-  padding: 33px;
+  padding: 3%;
   display: flex;
   background: black;
   color: rgb(223, 8, 8);
@@ -67,36 +65,34 @@ h1 {
 
 .logo {
   display: grid;
-  grid-column: 4/4;
+  grid-column: 4 / 5;
   grid-row: 1/1;
   align-items: center;
   justify-content: center;
   background-color: white;
   padding: 5%;
-  border-radius: 50px;
+  border-radius: 20px;
   margin-top: 5%;
   margin-bottom: 10%;
   margin-right: 5;
   margin-left: -10%;
-  width: auto;
 }
 .rightcolumn {
   display: grid;
   grid-column: 1/1;
   grid-row: 2/2;
-  padding: 40px;
+  padding: 0.6%;
   border-radius: 20px;
   background-color: white;
   margin-top: 8%;
   margin-right: 5%;
-  height: 43%;
-  width: auto;
+  height: 35%;
 }
 .leftcolumn {
   display: grid;
   grid-column: 2/5;
   grid-row: 2/2;
-  padding: 50px;
+  padding: 5%;
   border-radius: 20px;
   background-color: white;
   margin-top: 2.51%;
@@ -105,7 +101,7 @@ h1 {
 h2 {
   display: grid;
   grid-column: 3/4;
-  font-size: 45px;
+  font-size: 380%;
   color: red;
   margin-right: 10%;
 }
@@ -114,7 +110,7 @@ h3 {
   grid-row: 5/5;
   grid-column: 1/5;
   display: flex;
-  font-size: 20px;
+  font-size: 150%;
   justify-content: center;
 }
 h4 {
@@ -122,7 +118,7 @@ h4 {
   grid-row: 5/5;
   grid-column: 1/5;
   display: flex;
-  font-size: 30px;
+  font-size: 200%;
 }
 footer {
   grid-column: 1/5;
@@ -135,18 +131,16 @@ footer {
   justify-content: space-around;
   text-align: center;
   font-family: sans-serif;
-  padding: 10px;
-  margin-top: 20px;
+  padding: 2%;
+  margin-top: 2%;
   border-radius: 20px;
-  width: auto;
-  font-size: medium;
 }
 body::-webkit-scrollbar {
   width: 0.75rem;
 }
 body::-webkit-scrollbar-thumb {
   background-color: red;
-  border-radius: 10px;
+  border-radius: 1%;
 }
 body::-webkit-scrollbar-track {
   background-color: black;
@@ -155,7 +149,6 @@ body::-webkit-scrollbar-track {
 ul {
   list-style: solid circle;
   text-align: left;
-  margin-left: -50px;
 }
 
 .row:after {
@@ -188,7 +181,6 @@ ul {
 @media screen and (max-width: 800px) {
   .leftcolumn {
     width: 100%;
-    padding: 10px;
   }
 }
 @media screen and (max-width: 800px) {
@@ -230,7 +222,7 @@ body::-webkit-scrollbar {
 }
 body::-webkit-scrollbar-thumb {
   background-color: red;
-  border-radius: 10px;
+  border-radius: 1%;
 }
 body::-webkit-scrollbar-track {
   background-color: black;
@@ -245,6 +237,6 @@ body::-webkit-scrollbar-track {
   margin-top: 0.9rem;
   background-color: rgba(10, 10, 10, 0.534);
   width: 100%;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 2%;
+  border-radius: 20px;
 }
