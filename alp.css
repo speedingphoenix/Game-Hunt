@@ -157,8 +157,7 @@ ul {
   clear: both;
 }
 
-
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
   table {
     margin-right: 85%;
   }
@@ -203,7 +202,6 @@ table {
   border-spacing: 0;
   width: 100%;
   background-color: white;
-
 }
 th,
 td {
